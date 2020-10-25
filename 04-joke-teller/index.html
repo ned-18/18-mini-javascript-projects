@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Teller</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="share-continer">
+        <button class="twitter-btn" id="twitter" title="Tweet This!">
+            <i class="fab fa-twitter"></i>
+            <span>Share it!</span>
+        </button>
+        <button class="facebook-btn" id="facebook" title="Share on Facebook!">
+            <i class="fab fa-facebook"></i>
+            <span>Share it!</span>
+        </button>
+    </div>
+    <div class="main-container">
+        <button id="button">Tell Me A Joke</button>
+        <audio id="audio" controls hidden></audio>
+
+        <div class="joke-container">
+            <p class="joke" id="joke">Tell me a joke!</p>
+            <button class="copy-btn" id="copy-btn">Copy to Clipboard</button>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
